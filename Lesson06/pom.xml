@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!--    表示父项目-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.6</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+<!--    当前项目坐标-->
+    <groupId>com</groupId>
+    <artifactId>Lesson06</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Lesson06</name>
+    <description>Lesson06</description>
+<!--    jdk版本-->
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+<!--    依赖列表-->
+    <dependencies>
+<!--        web依赖,带有start的都叫做启动器-->
+<!--        web的驱动器,启动依赖-->
+<!--        spring-boot-starter开头的是springboot官方推出的启动器-->
+<!--        xxx-start是非spring官方推出的启动器-->
+<!--        starter:启动器,是一组依赖的描述(说明那些maven gav以及其他需要的gav)-->
+<!--        启动器包含:依赖和版本 传递依赖和版本 配置类,配置项-->
+<!--        注意启动器是没有版本号的,但是在maven右侧依赖中都是有版本号的,因为继承了父项目,版本在父项目中统一规定了的-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+<!--        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+<!--                springBoot插件-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
