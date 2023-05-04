@@ -1,0 +1,14 @@
+#编写配置 key:(空格)值
+#key是app.name的时候 .代表层次需要换行空格
+app:
+  owner: zwfYml
+  name: Lession06yml
+  porrt: 9090
+#引入两个yml文件,被引入的文件理所当然优先导入
+#导入其他的配置文件spring.config.import回车 (注意有空格)固定格式,多个文件用逗号隔开
+spring:
+  config:
+    import: conf/db.yml,conf/redis.yml
+  #激活某个配置文件(环境)
+  profiles:
+    active: dev

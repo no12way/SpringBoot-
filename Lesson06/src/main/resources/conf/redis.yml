@@ -1,0 +1,5 @@
+spring:
+  redis:
+    host: 192.168.1.10
+    hort: 6379
+    pwd: 123456

@@ -47,6 +47,8 @@
     </dependencies>
 
     <build>
+<!--        打包后的项目名-->
+        <finalName>myWeb</finalName>
         <plugins>
             <plugin>
 <!--                springBoot插件-->

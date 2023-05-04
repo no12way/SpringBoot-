@@ -1,5 +1,6 @@
 package com.start;
 
+import com.start.service.SomeService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -32,10 +33,10 @@ public class Lesson06Application {
 
     public static void main(String[] args) {
         //run方法第一个参数的源(配置类),从合理加载bean,找到bean注入到spring的容器
-        //run方法返回值是容器对象
-        ApplicationContext applicationContext = SpringApplication.run(Lesson06Application.class, args);
-        //从容器中获取对象
-        Date bean = applicationContext.getBean("myDate",Date.class);
+        //run方法返回值是容器对象app接口接收
+        ApplicationContext app = SpringApplication.run(Lesson06Application.class, args);
+        SomeService someService = app.getBean("someService", SomeService.class);
+        someService.printValue();
     }
 
 }
