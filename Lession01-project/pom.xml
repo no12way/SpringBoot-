@@ -56,7 +56,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.project.Lession01ProjectApplication</mainClass>
+                    <mainClass>nest.project.Lession01ProjectApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

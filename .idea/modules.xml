@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lession01-project/Lession01-project.iml" filepath="$PROJECT_DIR$/Lession01-project/Lession01-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lession04-single/Lession04-single.iml" filepath="$PROJECT_DIR$/Lession04-single/Lession04-single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lession7/Lession7.iml" filepath="$PROJECT_DIR$/Lession7/Lession7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson06/Lesson06.iml" filepath="$PROJECT_DIR$/Lesson06/Lesson06.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-.iml" filepath="$PROJECT_DIR$/SpringBoot-.iml" />
     </modules>

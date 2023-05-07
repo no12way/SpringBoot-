@@ -1,0 +1,35 @@
+#在这里写NestAppBean的属性信息
+#其中属性security是一个单独的类,有自己的属性
+#格式这么写
+app:
+  name: ipad
+  owner: jack
+  port: 3306
+  security:
+    username: root
+    password: 123456
+info:
+  username: jack
+  password: 18
+#集合的配置
+#数组
+names:
+  - 张三
+  - 李四
+#集合list
+myServers:
+  - title: 华南服务器
+    ip: 106.0.0.1
+  - title: 华北服务器
+    ip: 100.0.0.0
+#map键值对
+userMap:
+  #key是可以自定义的
+  num1:
+    name: 张三
+    sex: 男
+    age: 18
+  num2:
+    name: 李四
+    sex: 女
+    age: 19
