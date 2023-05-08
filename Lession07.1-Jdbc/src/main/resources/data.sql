@@ -1,0 +1,1 @@
+INSERT INTO t_act(actno,balance) VALUES ('act003',80000.0);

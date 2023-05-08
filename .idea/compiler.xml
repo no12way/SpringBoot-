@@ -7,17 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Lession08-Mybatis" />
         <module name="Lession7" />
         <module name="Lesson06" />
         <module name="Lession01-project" />
         <module name="Lession04-single" />
+        <module name="Lession07.1-Jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Lession01-project" target="17" />
       <module name="Lession04-single" target="17" />
       <module name="Lession05-Crm" target="17" />
+      <module name="Lession07.1-Jdbc" target="17" />
+      <module name="Lession08-Mybatis" target="17" />
       <module name="Lession7" target="17" />
+      <module name="Lession8-mybatis" target="17" />
       <module name="Lesson06" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -25,7 +30,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Lession04-single" options="-parameters" />
       <module name="Lession05-Crm" options="-parameters" />
+      <module name="Lession07.1-Jdbc" options="-parameters" />
+      <module name="Lession08-Mybatis" options="-parameters" />
       <module name="Lession7" options="-parameters" />
+      <module name="Lession8-mybatis" options="-parameters" />
       <module name="Lesson06" options="-parameters" />
     </option>
   </component>
