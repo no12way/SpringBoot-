@@ -1,6 +1,9 @@
 package com.mybatis;
 
+import com.mybatis.pojo.Clazz;
+import com.mybatis.service.ClazzService;
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 //扫描接口的位置
@@ -15,6 +18,7 @@ public class Lession08MybatisApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Lession08MybatisApplication.class, args);
+
     }
 
 }
