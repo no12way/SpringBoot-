@@ -13,6 +13,7 @@
         <module name="Lession08-Mybatis" />
         <module name="Lession7" />
         <module name="Lesson06" />
+        <module name="Lession10-Web" />
         <module name="Lession07.1-Jdbc" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="Lession07.1-Jdbc" target="17" />
       <module name="Lession08-Mybatis" target="17" />
       <module name="Lession09-Web" target="17" />
+      <module name="Lession10-Web" target="17" />
       <module name="Lession7" target="17" />
       <module name="Lession8-mybatis" target="17" />
       <module name="Lesson06" target="17" />
@@ -35,6 +37,7 @@
       <module name="Lession07.1-Jdbc" options="-parameters" />
       <module name="Lession08-Mybatis" options="-parameters" />
       <module name="Lession09-Web" options="-parameters" />
+      <module name="Lession10-Web" options="-parameters" />
       <module name="Lession7" options="-parameters" />
       <module name="Lession8-mybatis" options="-parameters" />
       <module name="Lesson06" options="-parameters" />

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Lession10-Web" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,6 +13,7 @@
         <option value="$PROJECT_DIR$/Lession08-Mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/Lession07.1-Jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/Lession09-Web/pom.xml" />
+        <option value="$PROJECT_DIR$/Lession10-Web/pom.xml" />
       </list>
     </option>
   </component>

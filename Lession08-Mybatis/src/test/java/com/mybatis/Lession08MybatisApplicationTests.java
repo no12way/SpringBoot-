@@ -49,7 +49,7 @@ class Lession08MybatisApplicationTests {
     }
     @Test
     public void test() throws FileNotFoundException {
-        Clazz newCla = new Clazz(1008, "高三八班");
+        Clazz newCla = new Clazz(1009, "高三九班");
         int insert = clazzService.insert(newCla);
         System.out.println(insert);
 
